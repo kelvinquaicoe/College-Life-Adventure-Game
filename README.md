@@ -1,62 +1,30 @@
 # College Life Adventure Game
 
-# Game Overview
-**College Life Adventure** is a text-based simulation game where the player takes on the role of a college student navigating their semester. The game allows players to make decisions about their course load, study strategy, and social engagement. Every choice affects the player's study hours, stress level, social points, and ultimately their semester outcome.  
-The theme centers around balancing academic responsibilities with social life, simulating realistic college decision-making scenarios.
+A beginner-friendly, text-based Python simulation about balancing a college course load, study choices, stress, and social life.
 
-# Branching Concepts Demonstrated
-The game demonstrates multiple branching programming concepts:
+## Features
 
-1. If/elif/else Statements 
-   - Used to handle course load choices (`A`, `B`, or `C`) and adjust `study_hours` and `stress_level` accordingly.  
+- Choose a light, standard, or heavy course load.
+- See how course load affects study hours and stress.
+- Choose a subject to study and see how social points change.
+- Receive an end-of-semester outcome based on the simulated values.
+- Handles invalid course-load and subject choices without crashing.
 
-2. Comparison Operators  
-   - Used to compare `current_gpa`, `stress_level`, and `social_points` to make conditional decisions.  
+## Requirements
 
-3. Membership Operators  
-   - Used to check if a chosen subject is available in the `subject` list.  
+- Python 3.8 or newer
+- No third-party packages
 
-4. Logical Operators (and/or)  
-   - Combine multiple conditions to create complex decision branches.  
+## Run
 
-5. Nested Branching  
-   - Inner if statements are used to further refine outcomes based on multiple variables such as GPA and social points.
+```bash
+python college_life_game.py
+```
 
----
+## Concepts practiced
 
-# How to Run the Game
-1. Ensure Python is installed on your computer.  
-2. Download the repository containing `kelvinquaicoe_assignment_3.py`.  
-3. Open a terminal or command prompt in the directory containing the script.  
-4. Run the game using the command:  
-   ```bash
-   python kelvinquaicoe_assignment_3.py
+Functions, conditionals, dictionaries, input handling, numeric bounds, and a main entry point.
 
-# What the Different Endings Represent
+## Development note
 
-Outstanding Semester
-Achieved with a high GPA, low stress, and well-balanced social life.
-Represents academic excellence and strong personal well-being.
-
-Good Semester
-Solid GPA, manageable stress, and reasonable social balance.
-Represents consistent performance and healthy balance between study and life.
-
-Average Semester
-Moderate GPA, higher stress, and less optimal social balance.
-Represents satisfactory performance with room for improvement in study habits or stress management.
-
-Struggling Semester
-Low GPA, high stress, and poor social balance.
-Represents a semester where intervention, study adjustments, or support is needed.
-
-
-# AI Assistance Used During Development
-
-Ai was used in finding bugs and problems in logoical functions.eg. 
-if current_gpa < 2.0 and social_points > 50:
-from if current_gpa > 2.0 and social_points < 50:
-Structuring the README to ensure a clear, professional documentation
-Ai was used to make sure everything I typed in the read me was accurate and not functionaly wrong.
-Ai was used to make sure all the requiremnts of the home work were met are I finished the assesment.
-Ai was used to simplify some applications as code got redundunt at some point.
+This project began as COMP 163 coursework and has been cleaned up as a learning project. AI assistance was used to help identify and correct bugs; the code should be reviewed and tested before further extension.
